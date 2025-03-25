@@ -7,19 +7,17 @@
 
 .qr-code {
   background-color: white;
-  display: flex;
-  flex-wrap: wrap;
   width: 320px;
   height: 499px;
   border-radius: 25px;
   box-shadow: 0 4px 32px rgba(0, 0, 0, 0.1);
   padding: 16px;
+  box-sizing: border-box;
 }
 
 .qr-code img {
-  max-width: 100%;
-  height: auto;
-  display: flex;
+  width: 288px;
+  height: 288px;
   border-radius: 10px;
 }
 
